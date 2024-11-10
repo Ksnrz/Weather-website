@@ -1,104 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-body{
-    color: #ffffff;
-    background-color: rgb(49, 49, 49);
+body {
+  color: #ffffff;
+  background-color: rgb(49, 49, 49);
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
-.box{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(41, 41, 41);
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,202,255,1) 0%, rgba(79,225,255,1) 33%, rgba(88,171,255,1) 66%, rgba(12,0,255,1) 100%); */
-    width: 450px;
-    height: 550px;
-    padding: 3%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.279);
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(41, 41, 41);
+  /*  background: rgb(2,0,36); */
+  /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,202,255,1) 0%, rgba(79,225,255,1) 33%, rgba(88,171,255,1) 66%, rgba(12,0,255,1) 100%); */
+  width: 450px;
+  height: 550px;
+  padding: 3%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.279);
 }
-.search{
-    margin-bottom: 55px;
-    position: relative;
+.search {
+  margin-bottom: 55px;
+  position: relative;
 }
-.search input{
-    padding: 12px;
-    border: none;
-    border-radius: 15px;
-    font-size: 16px;
-    margin-right: 0px; 
-    
+.search input {
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-right: 0px;
 }
-.search input:focus{
-    outline: 2.5px solid rgb(255, 170, 0);
+.search input:focus {
+  outline: 2.5px solid rgb(255, 170, 0);
 }
-.search button{
-    position: absolute;
-    top: 0;
-    right: -4px;
-    width: 44px;
-    height: 100%;
-    border: none;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: pointer;
-    background-color: rgb(255, 170, 0);
+.search button {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  width: 44px;
+  height: 100%;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(255, 170, 0);
 }
-.search button i{
-    width: 40px;
+.search button i {
+  width: 40px;
 }
-.weather{
-    text-align: center;
-    margin-bottom: 50px;
+.weather {
+  text-align: center;
+  margin-bottom: 50px;
 }
-.weather .city-name{
-    font-size: 36px;
+.weather .city-name {
+  font-size: 36px;
 }
-.weather .temp{
-    font-size: 64px;
+.weather .temp {
+  font-size: 64px;
 }
-.weather .weather-icon{
-    height: 100px;
-    margin-bottom: 20px;
+.weather .weather-icon {
+  height: 100px;
+  margin-bottom: 20px;
 }
-.detail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.humidity-con{
-    margin-right: 35px;
+.humidity-con {
+  margin-right: 35px;
 }
-.humidity-con, .wind-con{
-    display: flex;
-    align-items: center;
+.humidity-con,
+.wind-con {
+  display: flex;
+  align-items: center;
 }
-.humidity-con img, .wind-con img{
-    width: 40px;
-    margin-right: 8px;
+.humidity-con img,
+.wind-con img {
+  width: 40px;
+  margin-right: 8px;
 }
-.topic{
-    font-size: 18px;
+.topic {
+  font-size: 18px;
 }
-.humidity, .wind-speed{
-    font-size: 30px;
-    margin-bottom: 5px;
+.humidity,
+.wind-speed {
+  font-size: 30px;
+  margin-bottom: 5px;
 }
-.weather, .detail{
-    display: none;
+.weather,
+.detail {
+  display: none;
 }
-.error-handle{
-    display: none;
-    color: red;
+.error-handle {
+  display: none;
+  color: red;
 }
